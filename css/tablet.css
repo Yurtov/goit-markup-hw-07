@@ -1,0 +1,174 @@
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	.container {
+		max-width: 768px;
+	}
+
+	/* -----Header----- */
+
+	.header-btn-mobile {
+		display: none;
+	}
+
+	.header-container {
+		display: flex;
+		align-items: center;
+	}
+
+	.header-navigation {
+		display: flex;
+		align-items: center;
+		margin: 0 auto;
+	}
+
+	.header-contacts {
+		display: block;
+		font-size: 12px;
+		line-height: 1.17;
+		letter-spacing: 0.04em;
+	}
+
+	.header-contacts-list {
+		display: block;
+	}
+
+	.header-contacts-mail, .header-contacts-tel {
+		padding: 6px 0;
+	}
+
+	/* -----Hero----- */
+
+	.hero {
+		height: 436px;
+	
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bkg-tab-1x.jpg);
+	}
+
+	@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+		.hero {
+			background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bkg-tab-2x.jpg);
+		}
+	}
+	.hero-title {
+		max-width: 496px;
+		margin: auto;
+		font-weight: 700;
+		font-size: 56px;
+		line-height: 1.07;
+		margin-bottom: 36px;
+	}
+
+	/* -----Benefits----- */
+
+	.benefits-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 72px 24px;
+	}
+
+	.benefits-item {
+		width: calc((100% - 24px) / 2);
+		margin-bottom: 0;
+	}
+
+	.benefits-subtitle {
+		text-align: left;
+	}
+
+	/* -----Section Team----- */
+
+	.team-list {
+		display: flex;
+		gap: 64px 24px;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.team-item {
+		margin: 0;
+		width: calc((100% - 24px) / 2);
+	}
+
+	/* -----Customers----- */
+
+	.customers-list {
+		gap: 72px 24px;
+	}
+
+	.customers-item {
+		width: 168px;
+		height: 88px;
+	}
+
+	/* -----Footer----- */
+
+	.footer-container {
+		display: flex;
+		max-width: 565px;
+		flex-wrap: wrap;
+		padding: 0;
+	}
+
+	.footer-flex {
+		margin-right: 24px;
+	}
+
+	.footer-flex:last-child {
+		margin-right: 0;
+	}
+
+	.footer-logo {
+		display: block;
+	}
+
+	.footer-social-title {
+		display: block;
+	}
+
+	.footer-form {
+		display: flex;
+		gap: 24px;
+	}
+
+	.footer-form-title {
+		display: block;
+	}
+
+	.footer-form-input {
+		margin-bottom: 0;
+		width: 264px;
+	}
+
+	/* -----Portfolio----- */
+
+	.works {
+		padding: 64px 0 96px;
+	}
+
+	.works-filter-list {
+		justify-content: center;
+		margin-bottom: 64px;
+		gap: var(--main-gap);
+	}
+
+	.works-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 72px 24px;
+	}
+	
+	.works-item {
+		width: calc((100% - 24px) / 2);
+		margin: 0;
+	}
+
+	
+
+	/* -----Modal Form----- */
+
+	.modal {
+		width: 408px;
+		height: 584px;
+		padding: 72px 24px 24px;
+	}
+	
+}
