@@ -379,11 +379,13 @@ body {
 	padding: 96px 0;
 }
 
-.benefits-list {
-}
 
 .benefits-item {
 	margin-bottom: 72px;
+}
+
+.benefits-item:last-child {
+	margin: 0;
 }
 
 .benefits-icon {
